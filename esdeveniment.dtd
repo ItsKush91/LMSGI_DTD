@@ -1,0 +1,6 @@
+<!ELEMENT esdeveniments (esdeveniment+)>
+<!ELEMENT esdeveniment (grup, lloc, data, entrada_gratuita)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada_gratuita (#PCDATA)>
